@@ -17,7 +17,7 @@ dotenv.config()
 
 
 const verify = (req, res, next) => {
-    console.log("called verified...!");
+    
 
     const authHeader = req.headers.authorization;
 
